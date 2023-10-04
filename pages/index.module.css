@@ -1,0 +1,468 @@
+.aboutUs,
+.advisoryBoard {
+  position: absolute;
+  color: var(--color-crimson-200);
+}
+
+.aboutUs {
+  top: 25px;
+  left: calc(50% - 75.5px);
+  font-size: 50px;
+}
+
+.advisoryBoard {
+  top: 1228px;
+  left: calc(50% - 573.5px);
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+}
+
+.industrialAutomationHas {
+  margin: 0;
+}
+
+.industrialAutomationHasContainer {
+  position: absolute;
+  top: 1311px;
+  left: 144px;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 1233px;
+  height: 198px;
+}
+
+.gGanapathiraman1Icon,
+.pvSivaram1Icon {
+  position: absolute;
+  top: 1518px;
+  left: 144px;
+  width: 342px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.pvSivaram1Icon {
+  top: 2091px;
+  left: 146px;
+  width: 338px;
+}
+
+.mrGGanapathiraman {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+}
+
+.countryManagerIndia {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.mrGGanapathiramanContainer,
+.mrSivaramPvContainer {
+  position: absolute;
+  top: 1511px;
+  left: 525px;
+  text-align: justify;
+  display: inline-block;
+  width: 847px;
+  height: 479px;
+  font-size: var(--font-size-mid);
+}
+
+.mrSivaramPvContainer {
+  top: 2083px;
+  width: 852px;
+}
+
+.desktop2Child,
+.desktop2Item {
+  position: absolute;
+  top: 2048px;
+  left: calc(50% - 615.51px);
+  width: 1228.01px;
+  height: 7px;
+}
+
+.desktop2Item {
+  top: 683px;
+  left: calc(50% - 617.5px);
+  width: 1226.01px;
+  height: 8.96px;
+}
+
+.desktop2Inner,
+.rectangleDiv {
+  position: absolute;
+  top: 2730px;
+  left: 0;
+  background-color: var(--color-crimson-200);
+  min-width: 1600px;
+  height: 2px;
+}
+
+.rectangleDiv {
+  top: 3571px;
+  height: 467px;
+}
+
+.forOffersAnd,
+.joinOurMailing {
+  position: absolute;
+  top: 0;
+  left: 127px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 228px;
+  height: 29px;
+}
+
+.forOffersAnd {
+  top: 29px;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  text-align: center;
+  width: 491px;
+  height: 45px;
+}
+
+.groupChild {
+  position: absolute;
+  top: 177.34px;
+  left: 0;
+  border-radius: var(--br-29xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 481.98px;
+  height: 63.34px;
+}
+
+.enterYourEmail {
+  position: absolute;
+  top: 190px;
+  left: 96px;
+  font-weight: 100;
+  text-align: center;
+  display: inline-block;
+  width: 289px;
+  height: 52px;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.groupItem,
+.rectangleWrapper,
+.subcribe {
+  position: absolute;
+  left: 0;
+  width: 251px;
+  height: 64px;
+}
+
+.groupItem {
+  top: 64px;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-white);
+}
+
+.rectangleWrapper,
+.subcribe {
+  top: 0;
+}
+
+.subcribe {
+  top: 77px;
+  left: 72px;
+  font-weight: 100;
+  display: inline-block;
+  width: 108px;
+  height: 27px;
+  -webkit-text-stroke: 1px #e31e25;
+}
+
+.groupParent {
+  position: absolute;
+  top: 202px;
+  left: 105px;
+  width: 251px;
+  height: 64px;
+  color: var(--color-crimson-200);
+}
+
+.joinOurMailingListParent {
+  position: absolute;
+  top: 3672px;
+  left: 80px;
+  width: 491px;
+  height: 266px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+
+.iaLog20201Icon,
+.iedLogo1Icon,
+.july20231Icon,
+.qna11Icon {
+  position: absolute;
+  top: 183px;
+  left: 142px;
+  width: 210px;
+  height: 71px;
+  object-fit: cover;
+}
+
+.iedLogo1Icon,
+.july20231Icon,
+.qna11Icon {
+  top: 738px;
+  width: 212px;
+  height: 142px;
+}
+
+.july20231Icon,
+.qna11Icon {
+  top: 3667px;
+  left: 691px;
+  width: 357px;
+  height: 276px;
+}
+
+.july20231Icon {
+  top: 3563px;
+  left: 1068px;
+  width: 381px;
+  height: 475px;
+}
+
+.iedCommunicationsLtdContainer,
+.industrialAutomationIsContainer {
+  position: absolute;
+  top: 224px;
+  left: 424px;
+  text-align: justify;
+  display: inline-block;
+  width: 944px;
+  height: 419px;
+}
+
+.iedCommunicationsLtdContainer {
+  top: 797px;
+  height: 336px;
+}
+
+.iedCommunicationsLtd1,
+.industrialAutomation {
+  position: absolute;
+  top: 171px;
+  left: 424px;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 919.94px;
+  height: 74.56px;
+}
+
+.iedCommunicationsLtd1 {
+  top: 744px;
+}
+
+.desktop2Child1 {
+  position: absolute;
+  top: 1184px;
+  left: calc(50% - 759.5px);
+  background-color: var(--color-crimson-200);
+  width: 1600px;
+  height: 2px;
+}
+
+.brandAssociation {
+  position: absolute;
+  top: 2773px;
+  left: calc(50% - 585.5px);
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  color: var(--color-crimson-200);
+  display: inline-block;
+  width: 439px;
+  height: 43px;
+}
+
+.indiasNo1Tomorrows {
+  position: absolute;
+  top: 722px;
+  left: 424px;
+  display: inline-block;
+  width: 639px;
+  height: 75px;
+}
+
+.desktop2Child2,
+.instanceChild {
+  position: absolute;
+  top: 2857px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1600px;
+  height: 673px;
+}
+
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-white);
+}
+
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 443px;
+  height: 614px;
+  mix-blend-mode: normal;
+}
+
+.ae20232Icon {
+  position: absolute;
+  top: 56px;
+  left: 39px;
+  width: 366px;
+  height: 81px;
+  object-fit: cover;
+}
+
+.instanceParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 443px;
+  height: 614px;
+}
+
+.aesouth20231Icon {
+  position: absolute;
+  top: 41px;
+  left: 33px;
+  width: 378px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.instanceGroup {
+  position: absolute;
+  top: 0;
+  left: 471px;
+  width: 443px;
+  height: 614px;
+}
+
+.expoConnect1Icon {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  width: 305px;
+  height: 153px;
+  object-fit: cover;
+}
+
+.instanceContainer {
+  position: absolute;
+  top: 0;
+  left: 942px;
+  width: 443px;
+  height: 614px;
+}
+
+.automationExpo2023,
+.automationExpo20231,
+.automationExpo20232 {
+  position: absolute;
+  top: 176px;
+  left: 60px;
+  font-weight: 600;
+  display: inline-block;
+  width: 334px;
+}
+
+.automationExpo20231,
+.automationExpo20232 {
+  left: 526px;
+}
+
+.automationExpo20232 {
+  left: 992px;
+}
+
+.automationExpoIsContainer,
+.automationExpoIsContainer1,
+.automationExpoIsContainer2 {
+  position: absolute;
+  top: 218px;
+  left: 60px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 325px;
+}
+
+.automationExpoIsContainer1,
+.automationExpoIsContainer2 {
+  left: 526px;
+}
+
+.automationExpoIsContainer2 {
+  left: 992px;
+}
+
+.groupChild1,
+.groupIcon,
+.groupInner {
+  position: absolute;
+  top: 554px;
+  left: 143px;
+  width: 157px;
+  height: 33px;
+}
+
+.groupChild1,
+.groupIcon {
+  left: 609px;
+}
+
+.groupChild1 {
+  left: 1075px;
+}
+
+.desktop2,
+.groupContainer {
+  position: absolute;
+  top: 2887px;
+  left: 67px;
+  width: 1385px;
+  height: 614px;
+}
+
+.desktop2 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1600px;
+  height: 4038px;
+  overflow: hidden;
+}
+
+.desktop2Parent {
+  position: relative;
+  width: 100%;
+  height: 4038px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

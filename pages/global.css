@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-mid: 17px;
+  --font-size-mini: 15px;
+  --font-size-3xs: 10px;
+  --font-size-6xl: 25px;
+  --font-size-11xl: 30px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+  --color-crimson-100: #d9262a;
+  --color-crimson-200: #e31e25;
+  --color-firebrick: #a1181b;
+  --color-silver-100: #bbb;
+  --color-gray-100: #777;
+  --color-gray-200: rgba(0, 0, 0, 0.45);
+  --color-darkgray: #a1a1a1;
+
+  /* border radiuses */
+  --br-29xl: 48px;
+  --br-7xs: 6px;
+  --br-xl: 20px;
+  --br-6xl: 25px;
+  --br-44xl-5: 63.5px;
+}

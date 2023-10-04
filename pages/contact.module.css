@@ -1,0 +1,186 @@
+/* Define CSS variables for consistent use */
+
+
+/* Common styles for container elements */
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual contact column styles */
+.contact-column {
+  width: 360px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.contact-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: var(--font-poppins);
+}
+
+/* Heading styles */
+.h2-column {
+  color: red;
+  font-family: var(--font-poppins);
+}
+
+.h1-column {
+  font-family: var(--font-poppins);
+  margin: 0;
+  margin-top: 80px;
+}
+
+.h4-column {
+  color: red;
+  font-family: var(--font-poppins);
+  margin: 0;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* Display field styles */
+.display-field {
+  font-family: var(--font-poppins);
+  margin-bottom: 5px;
+}
+
+.h5-column {
+  color: #a9a6a6;
+  font-size: 18px;
+  margin: 0;
+}
+
+.address {
+  font-family: var(--font-poppins);
+  margin-bottom: 50px;
+}
+
+/* Input container */
+.input-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+/* Contact form styles */
+.contact-form {
+  flex: 1;
+  max-width: 400px;
+  background: #f7f7f7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.form-field label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field input[type="tel"],
+.form-field textarea {
+  width: 95%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.form-field input[type="text"]:focus,
+.form-field input[type="email"]:focus,
+.form-field input[type="tel"]:focus,
+.form-field textarea:focus {
+  border-color: #007bff;
+}
+
+/* Submit button styles */
+.form-field button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-field button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Custom submit button */
+.submit-btn {
+  background-color: rgb(185, 8, 8);
+  border: solid 1px grey;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: var(--font-poppins);
+}
+
+.submit-btn:hover {
+  background-color: rgb(124, 8, 8);
+  border: solid 1px grey;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: var(--font-poppins);
+}
+
+/* Google Map container */
+.google-map-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1400px;
+  /* Adjust width as needed */
+}
+
+/* Additional styles for other modules (if any) */
+/* .module-class {
+  // Your styles here
+} */

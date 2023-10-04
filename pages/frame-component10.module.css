@@ -1,0 +1,114 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 785px;
+  height: 406px;
+  object-fit: cover;
+}
+.groupItem {
+  position: absolute;
+  top: 167.79px;
+  left: 405.22px;
+  width: 42.75px;
+  height: 49.36px;
+}
+.groupChild1,
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 785px;
+  height: 7px;
+}
+.groupChild1,
+.rectangleDiv {
+  background-color: var(--color-darkgray);
+  width: 480px;
+}
+.groupChild1 {
+  top: 0;
+  left: 480px;
+  background-color: var(--color-gray-100);
+  width: 4px;
+  height: 15px;
+}
+.rectangleContainer,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 484px;
+  height: 15px;
+}
+.rectangleGroup {
+  top: 412.51px;
+  width: 785px;
+}
+.interviewsInner,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 786px;
+  height: 427.51px;
+}
+.interviewsInner {
+  top: 79px;
+  left: 454px;
+}
+.groupChild2 {
+  top: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro);
+}
+.groupChild2,
+.groupDiv,
+.groupParent,
+.seeMore {
+  position: absolute;
+  left: 0;
+  width: 135px;
+  height: 38px;
+}
+.seeMore {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.groupDiv,
+.groupParent {
+  top: 446.51px;
+}
+.groupParent {
+  top: 104.51px;
+  width: 436px;
+  height: 315px;
+}
+.interviews,
+.interviews1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1240px;
+}
+.interviews1 {
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  display: inline-block;
+}
+.interviews {
+  height: 506.51px;
+}
+.interviewsParent {
+  position: relative;
+  width: 100%;
+  height: 506.51px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

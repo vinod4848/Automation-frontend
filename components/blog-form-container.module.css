@@ -1,0 +1,35 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 173.38px;
+  height: 93.78px;
+  object-fit: cover;
+}
+.blogTitle {
+  top: 98.04px;
+  font-weight: 600;
+  display: inline-block;
+  height: 21.31px;
+}
+.blogSubtitle,
+.blogTitle,
+.rectangleParent {
+  position: absolute;
+  left: 0;
+  width: 173.38px;
+}
+.blogSubtitle {
+  top: 122.2px;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  height: 18.47px;
+}
+.rectangleParent {
+  top: 0;
+  height: 140.67px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

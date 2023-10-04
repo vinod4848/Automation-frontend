@@ -1,0 +1,45 @@
+/* mediapartner.module.css */
+
+/* Container for the entire component */
+.mediaPartnerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading style */
+  .mediaPartnerContainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid container for images */
+  .imageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Gap between images */
+  }
+  
+  /* Anchor tag style for images */
+  .imageLink {
+    display: block; /* Make anchor tags block-level for the entire image */
+    text-decoration: none; /* Remove underlines */
+  }
+  
+  /* Style for each image */
+  .image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    border: 1px solid #ccc; /* Optional border for images */
+    transition: transform 0.2s ease-in-out; /* Add a smooth hover effect */
+  }
+  
+  /* Hover effect - scale up the image slightly */
+  .image:hover {
+    transform: scale(1.05);
+  }
+  .h1container{
+    font-family: 'poppins';
+    border-bottom: solid 1px grey;
+  }

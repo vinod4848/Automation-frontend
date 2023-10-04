@@ -1,0 +1,107 @@
+.ctaChild {
+  position: absolute;
+  top: 216px;
+  left: 0;
+  background-color: var(--color-firebrick);
+  max-width: 1519px;
+  min-width: 1600px;
+  height: 136px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro);
+}
+.groupChild,
+.rectangleParent,
+.subscribeNow {
+  position: absolute;
+  width: 300px;
+  height: 59.11px;
+}
+.subscribeNow {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  top: 254px;
+  left: 136px;
+  text-align: center;
+  color: var(--color-black);
+}
+.magazineAd {
+  position: absolute;
+  top: 224px;
+  left: 731px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+}
+.magazineDetails {
+  position: absolute;
+  top: 292px;
+  left: 783px;
+  font-size: var(--font-size-6xl);
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 930px;
+  width: 320px;
+  height: 447px;
+  object-fit: cover;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.groupInner,
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 146px;
+  height: 204px;
+  object-fit: cover;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.rectangleIcon {
+  left: 186px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3 {
+  left: 372px;
+}
+.groupChild2,
+.groupChild3 {
+  left: 558px;
+}
+.groupChild3 {
+  left: 744px;
+}
+.cta,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 1250px;
+  height: 447px;
+}
+.cta {
+  left: 0;
+  width: 1447px;
+}
+.ctaParent {
+  position: relative;
+  width: 100%;
+  height: 447px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

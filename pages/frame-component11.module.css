@@ -1,0 +1,63 @@
+/* frame-component11.module.css */
+
+/* Style for the footer section */
+.footer {
+  background-color: black;
+  color: white;
+  height: 250px;
+  font-family: "poppins";
+  padding: 20px; /* Add padding as needed */
+}
+.logoFull1 {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+}
+/* Style for the container holding the four items */
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly horizontally */
+  max-width: 1500px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for each of the four containers */
+.footerItem {
+  flex: 1; /* Equal width for each container */
+  margin: 0 15px;
+  padding: 0 30px;
+}
+.headertext {
+  border-bottom: solid 1px white;
+  margin: 10px 0;
+}
+.quicklinks {
+  border-bottom: solid 1px white;
+  margin: 10px 0;
+  justify-content: center;
+  display: flex;
+  padding: 0 50px;
+}
+.about {
+  border-bottom: solid 1px white;
+  margin: 10px 0;
+  justify-content: center;
+  display: flex;
+  padding: 0 50px;
+}
+.company {
+  border-bottom: solid 1px white;
+  margin: 10px 0;
+  justify-content: center;
+  display: flex;
+}
+.desc {
+  font-size: 12px;
+}
+
+.buySubscription{
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  cursor: pointer;
+}

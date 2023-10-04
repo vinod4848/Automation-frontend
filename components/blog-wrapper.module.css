@@ -1,0 +1,34 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 400px;
+  height: 161px;
+}
+.blogTitle {
+  top: 4px;
+  font-weight: 600;
+  display: inline-block;
+}
+.blogSubtitle,
+.blogTitle,
+.rectangleParent {
+  position: absolute;
+  left: 0;
+  width: 400px;
+}
+.blogSubtitle {
+  top: 66px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  height: 30px;
+}
+.rectangleParent {
+  top: 117.49px;
+  height: 161px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

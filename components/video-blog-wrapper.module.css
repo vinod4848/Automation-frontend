@@ -1,0 +1,30 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-silver-100);
+  width: 220px;
+  height: 64px;
+}
+.videoBlogTitle {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  font-weight: 600;
+}
+.rectangleParent,
+.videoBlogSubtitle {
+  position: absolute;
+  top: 30px;
+  left: 19px;
+}
+.rectangleParent {
+  top: 293px;
+  left: 0;
+  width: 220px;
+  height: 64px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

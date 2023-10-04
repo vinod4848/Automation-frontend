@@ -1,0 +1,62 @@
+.Header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: "poppins";
+}
+.logoFull1 {
+  width: 165px;
+  height: 100px;
+  object-fit: cover;
+}
+.logo {
+  background-color: white;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  height: 150px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  box-shadow: -3px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.hrnavbar {
+  background-color: #a1181b;
+  height: 45px;
+  cursor: pointer;
+  color: white;
+  width: 105%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.subscribeNow {
+  width: 100%;
+  height: 45px;
+  font-weight: 600;
+  font-size: 20px;
+  border: white;
+  color: white;
+  background-color: red;
+  border-bottom-left-radius: 20px;
+  margin-left: -15px;
+}
+.hamburgerMenu {
+  z-index: 999;
+}
+
+.hamburgerIcon {
+  width: 100%;
+  height: 5px;
+  background-color: #ff0808;
+  margin: 4px;
+  z-index: 999;
+}
+
+.hamburgerLine {
+  width: 100%;
+  height: 5px;
+  background-color: #ff0808;
+  margin: 4px;
+  z-index: 999;
+}

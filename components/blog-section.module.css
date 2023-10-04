@@ -1,0 +1,90 @@
+.maskGroupIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 116.7px;
+  object-fit: cover;
+}
+.blogSubtitle,
+.blogTitle {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 240px;
+}
+.blogTitle {
+  top: 134.51px;
+  font-weight: 600;
+  height: 29.67px;
+}
+.blogSubtitle {
+  top: 168.13px;
+  font-size: var(--font-size-mini);
+  height: 26.37px;
+}
+.groupChild,
+.groupWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 194.51px;
+}
+.groupChild {
+  background-color: var(--color-gainsboro);
+  height: 116.7px;
+}
+.image4Icon {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  width: 95px;
+  height: 117px;
+  object-fit: cover;
+}
+.groupContainer,
+.image5Icon {
+  position: absolute;
+  top: 0;
+  left: 303px;
+  width: 240px;
+  height: 194.51px;
+}
+.image5Icon {
+  left: 62px;
+  width: 116px;
+  height: 117px;
+  object-fit: cover;
+}
+.groupFrame,
+.image6Icon {
+  position: absolute;
+  top: 0;
+  left: 606px;
+  width: 240px;
+  height: 194.51px;
+}
+.image6Icon {
+  left: 90px;
+  width: 60px;
+  height: 117px;
+  object-fit: cover;
+}
+.groupDiv,
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 909px;
+  width: 240px;
+  height: 194.51px;
+}
+.groupParent {
+  top: 531px;
+  left: 46px;
+  width: 1149px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
