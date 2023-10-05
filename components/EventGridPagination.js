@@ -224,7 +224,7 @@ const EventGridPagination = ({ blogs }) => {
           </div>
         </div>
       </div>
-      <div className="col-span-3 grid grid-cols-3 gap-3 ">
+      <div className="col-span-3">
         {currentBlogs
           .filter((post) => {
             if (selectedMonth !== null) {

@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import styles from "./frame-component1.module.css";
+import styles from "./.module.css";
 import { useState } from "react";
 import sidebarStyles from "../components/sidebar.module.css";
 import HeaderAds from "../components/HeaderAds";
@@ -45,7 +45,7 @@ const Header = () => {
         <div className={styles.rectangleParent}>
           <div className={styles.groupChild} />
           <div className={styles.groupItem} />
-          <b className={styles.subscribeNow} onClick={() => router.push(`/subscription/subscription`)} style={{cursor:"pointer"}}>Subscribe Now</b>
+          <b className={styles.subscribeNow} onClick={() => router.push(`/subscription/subscription`)} style={{ cursor: "pointer" }}>Subscribe Now</b>
         </div>
         <div className={styles.hamburgerMenu} onClick={toggleSidebar}>
           {/* <div className={styles.hamburgerIcon}> */}
@@ -56,9 +56,8 @@ const Header = () => {
         </div>
 
         <div
-          className={`${sidebarStyles.sidebar} ${
-            isSidebarOpen ? sidebarStyles.open : ""
-          }`}
+          className={`${sidebarStyles.sidebar} ${isSidebarOpen ? sidebarStyles.open : ""
+            }`}
         >
           <div className={sidebarStyles.navbarhead}>
             <img

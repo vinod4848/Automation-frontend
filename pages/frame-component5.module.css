@@ -9,7 +9,8 @@
   justify-content: center;
   align-items: center;
   background-color: #a1181b;
-  height: 500px; /* Adjust the height as needed */
+  height: 500px;
+  /* Adjust the height as needed */
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -17,7 +18,8 @@
 /* Featured Content Container */
 .featuredContent {
   display: flex;
-  height: 500px;;
+  height: 500px;
+  ;
   flex-direction: column;
   align-items: center;
 }
@@ -30,25 +32,51 @@
 }
 
 /* Blog Item Container */
-.rectangleParent {
-  width: 300px; /* Set a fixed width */
-  height: 300px; /* Set a fixed height */
+/* .rectangleParent {
+  width: 300px; 
+  height: 300px; 
   display: flex;
   flex-direction: column;
   background-color: #fff;
   align-items: center;
   padding: 20px;
-  border: 1px solid #000000; /* Border color */
+  border: 1px solid #000000; 
   border-radius: 10px;
   margin: 10px;
   box-shadow: 1cap;
+} */
+.rectangleParent {
+  width: 300px;
+  /* Set a fixed width */
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-radius: 15px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.7s;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
+
+.rectangleParent:hover {
+  transform: scale(1.1);
+  z-index: 9;
+}
+
 
 /* Blog Image */
 .groupChild {
   width: 100%;
   height: 120px;
-  object-fit: fill; /* Ensure the image fits within the container */
+  object-fit: fill;
+  /* Ensure the image fits within the container */
 }
 
 /* Blog Title */
@@ -60,6 +88,7 @@
   text-align: center;
   color: #000000;
 }
+
 .desc {
   font-size: 18px;
   font-family: 'poppins';
@@ -87,8 +116,10 @@
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #007bff;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -97,7 +128,8 @@
 
 /* Disabled Navigation Buttons */
 .myButton:disabled {
-  background-color: #ccc; /* Disabled button background color */
+  background-color: #ccc;
+  /* Disabled button background color */
   cursor: not-allowed;
 }
 
@@ -118,7 +150,8 @@
   display: flex;
   height: 400px;
   max-width: 1200px;
-  transition: transform 0.3s ease; /* Animation for sliding effect */
+  transition: transform 0.3s ease;
+  /* Animation for sliding effect */
 }
 
 /* Sliding Buttons */
@@ -131,6 +164,7 @@
   height: 25px;
   margin-top: 15%;
 }
+
 .carouselButton2 {
   background-color: #ffffff;
   color: #ff0000;

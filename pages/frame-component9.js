@@ -62,7 +62,10 @@ const FrameComponent8 = () => {
           src={blog.media[0].fileUrl || defaultImage} // Use the blog's image or default placeholder image
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 4)}</div>
-        <div className={styles.desc}>{truncateWords(blog.brief, 10)}</div>
+        <div >{truncateWords(blog.state, 10)}</div>
+        <div >{truncateWords(blog.city, 10)}</div>
+        <div >{truncateWords(blog.country, 10)}</div>
+        {console.log()}
       </div>
     ));
   };
