@@ -82,7 +82,7 @@ const FrameComponent8 = () => {
   return (
     <div className={styles.featuredContentParent}>
       <div className={styles.featuredContent}>
-        <div style={{ display: "flex", alignItems: "center", width: "1200px" }}>
+        <div style={{ display: "flex", alignItems: "center", width: "1200px", }}>
           <h1 className={styles.featuredContent1}>Events</h1>
           <div className={styles.carouselContainer}>
             <button

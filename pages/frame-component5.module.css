@@ -61,6 +61,7 @@
   z-index: 1;
   overflow: hidden;
   transition: 0.7s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgb(255, 255, 255);
   color: black;
 }
@@ -149,7 +150,7 @@
 .carouselWrapper {
   display: flex;
   height: 400px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   transition: transform 0.3s ease;
   /* Animation for sliding effect */
 }
@@ -162,7 +163,7 @@
   width: 25px;
   border-radius: 50%;
   height: 25px;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .carouselButton2 {
@@ -172,7 +173,7 @@
   width: 25px;
   border-radius: 50%;
   height: 25px;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .carouselButton.prev {

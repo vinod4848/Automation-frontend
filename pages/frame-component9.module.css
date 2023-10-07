@@ -11,7 +11,8 @@
   background-color: #a1181b;
   color: #fff;
   border-top-left-radius: 200px;
-  height: 350px;
+  height: 400px;
+
   /* Adjust the height as needed */
 }
 
@@ -21,52 +22,48 @@
   height: 400px;
   flex-direction: column;
   align-items: center;
+
 }
 
 /* Featured Content Title */
 .featuredContent1 {
   font-size: 36px;
   font-family: 'poppins';
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-right: 10px;
 }
 
 /* Blog Item Container */
 .rectangleParent {
-  width: 400px;
+  width: 100%;
   /* Set a fixed width */
-  height: 260px;
+  height: 280px;
   /* Set a fixed height */
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin: 10px;
-  box-shadow: 1px 2px 4px 0 rgba(110, 124, 214, 0.2),
-    0 5px 15px 0 rgba(4, 5, 16, 0.15);
   border-radius: 15px;
-  padding: 10px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 1;
   overflow: hidden;
   transition: 0.7s;
   background-color: rgb(255, 255, 255);
-  color: fff;
-  background-color: transparent;
+  color: black;
+
 }
 
 .rectangleParent:hover {
-  background: #f4a0a0;
-
   transform: scale(1.1);
   z-index: 9;
 }
 
 /* Blog Image */
 .groupChild {
-  width: 95%;
+  width: 100%;
   height: 120px;
   object-fit: fill;
-  border-radius: 6px;
+
   /* Ensure the image fits within the container */
 }
 
@@ -94,7 +91,7 @@
 
 /* Navigation Buttons */
 .myButton {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 16px;
   font-weight: bold;
   background-color: #007bff;
@@ -124,6 +121,8 @@
   position: relative;
   display: flex;
   width: 100%;
+
+
 }
 
 /* Carousel Wrapper */
@@ -131,8 +130,9 @@
   display: flex;
   align-items: center;
   height: 400px;
-  max-width: 1000px;
+  width: 100%;
   transition: transform 0.3s ease;
+
   /* Animation for sliding effect */
 }
 

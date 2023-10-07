@@ -7,12 +7,14 @@
   min-width: 1600px;
   height: 136px;
 }
+
 .groupChild {
   top: 0;
   left: 0;
   border-radius: var(--br-7xs);
   background-color: var(--color-gainsboro);
 }
+
 .groupChild,
 .rectangleParent,
 .subscribeNow {
@@ -20,6 +22,7 @@
   width: 300px;
   height: 59.11px;
 }
+
 .subscribeNow {
   top: 0;
   left: 0;
@@ -27,12 +30,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .rectangleParent {
   top: 254px;
   left: 136px;
   text-align: center;
   color: var(--color-black);
 }
+
 .magazineAd {
   position: absolute;
   top: 224px;
@@ -40,12 +45,14 @@
   font-size: var(--font-size-21xl);
   font-weight: 600;
 }
+
 .magazineDetails {
   position: absolute;
   top: 292px;
   left: 783px;
   font-size: var(--font-size-6xl);
 }
+
 .groupItem {
   position: absolute;
   top: 0;
@@ -54,6 +61,7 @@
   height: 447px;
   object-fit: cover;
 }
+
 .groupChild1,
 .groupChild2,
 .groupChild3,
@@ -66,24 +74,29 @@
   height: 204px;
   object-fit: cover;
 }
+
 .groupChild1,
 .groupChild2,
 .groupChild3,
 .rectangleIcon {
   left: 186px;
 }
+
 .groupChild1,
 .groupChild2,
 .groupChild3 {
   left: 372px;
 }
+
 .groupChild2,
 .groupChild3 {
   left: 558px;
 }
+
 .groupChild3 {
   left: 744px;
 }
+
 .cta,
 .rectangleGroup {
   position: absolute;
@@ -92,10 +105,12 @@
   width: 1250px;
   height: 447px;
 }
+
 .cta {
   left: 0;
   width: 1447px;
 }
+
 .ctaParent {
   position: relative;
   width: 100%;

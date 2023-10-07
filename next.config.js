@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
-  const nextConfig = {
-    reactStrictMode: true,
-    env: {
-      api : 'http://localhost:5000'
-    },
-  }
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    api: 'https://automation-server.onrender.com'
+  },
+}
 
-  module.exports = nextConfig
+module.exports = nextConfig

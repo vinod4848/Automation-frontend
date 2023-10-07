@@ -5,6 +5,7 @@
 
 /* Featured Content Parent Container */
 .featuredContentParent {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +38,7 @@
   align-items: center;
   padding: 20px;
   border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -123,7 +125,6 @@
 .carouselWrapper {
   display: flex;
   height: 350px;
-  max-width: 1000px;
   transition: transform 0.3s ease;
   /* Animation for sliding effect */
 }
@@ -136,7 +137,7 @@
   width: 25px;
   border-radius: 50%;
   height: 25px;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .carouselButton2 {
@@ -146,7 +147,7 @@
   width: 25px;
   border-radius: 50%;
   height: 25px;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .carouselButton.prev {
