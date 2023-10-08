@@ -84,6 +84,16 @@
   text-align: center;
 }
 
+.desc {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'poppins';
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #000000;
+  text-align: center;
+
+}
 /* Blog Subtitle */
 .blogSubtitle {
   font-size: 14px;

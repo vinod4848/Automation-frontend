@@ -106,20 +106,19 @@ const Header = () => {
               Subscribe Now
             </button>
           </div>
-          <div style={{width:"30px"}} onClick={toggleSidebar}>
-          {/* <div className={styles.hamburgerIcon}> */}
-          <div className={styles.hamburgerLine} />
-          <div className={styles.hamburgerLine} />
-          <div className={styles.hamburgerLine} />
-          {/* </div> */}
-        </div>
+          <div style={{ width: "30px" }} onClick={toggleSidebar}>
+            {/* <div className={styles.hamburgerIcon}> */}
+            <div className={styles.hamburgerLine} />
+            <div className={styles.hamburgerLine} />
+            <div className={styles.hamburgerLine} />
+            {/* </div> */}
+          </div>
         </div>
       </div>
 
       <div
-        className={`${sidebarStyles.sidebar} ${
-          isSidebarOpen ? sidebarStyles.open : ""
-        }`}
+        className={`${sidebarStyles.sidebar} ${isSidebarOpen ? sidebarStyles.open : ""
+          }`}
       >
         <div className={sidebarStyles.navbarhead}>
           <img

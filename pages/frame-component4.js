@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 const FrameComponent4 = () => {
   const [blogs, setBlogs] = useState([]);
   const [ad, setAd] = useState(null);
-  console.log("ads::: ", ad);
   const blogsPerPage = 4;
   const [currentPage, setCurrentPage] = useState(1);
   const apiUrl = process.env.api;
@@ -80,6 +79,7 @@ const FrameComponent4 = () => {
           src={blog.image || defaultImage} // Use the blog's image or default placeholder image
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 6)}</div>
+        <div className={styles.desc}>{truncateWords(blog.metaDescription, 6)}</div>
       </div>
     ));
   };

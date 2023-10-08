@@ -62,7 +62,7 @@ const FrameComponent5 = () => {
           src={blog.image || defaultImage} // Use the blog's image or default placeholder image
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 4)}</div>
-        <div className={styles.desc} dangerouslySetInnerHTML={{ __html: truncateWords(blog.brief, 8) }}></div>
+        <div className={styles.desc} dangerouslySetInnerHTML={{ __html: truncateWords(blog.metaDescription, 8) }}></div>
       </div>
     ));
   };
