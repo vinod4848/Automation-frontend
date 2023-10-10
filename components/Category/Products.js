@@ -15,7 +15,6 @@ const Products = ({ blogs }) => {
   const apiUrl = process.env.api;
   // const FileArray = [];
 
-  // console.log(FileArray, "array"); // Change this value based on the number of blogs you want to display per page
 
   // Change page
   const paginate = (pageNumber) => {
@@ -31,7 +30,7 @@ const Products = ({ blogs }) => {
           `${apiUrl}/api/post/products?page=${currentPage}&perPage=${blogsPerPage}`
         );
         const { data } = response;
-        console.log(data, "Trending Posts");
+
 
         if (Array.isArray(data.posts)) {
           setTrendingPosts(data.posts);

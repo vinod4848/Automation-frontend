@@ -10,7 +10,8 @@ const FrameComponent5 = () => {
   const apiUrl = process.env.api;
   const carouselRef = useRef(null);
   const router = useRouter();
-  const defaultImage = "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png";
+  const defaultImage =
+    "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png";
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -48,21 +49,29 @@ const FrameComponent5 = () => {
     router.push(`/category/casestudy?id=${blogId}`);
   };
 
-
   const renderBlogs = () => {
     const startIndex = (currentPage - 1) * blogsPerPage;
     const endIndex = startIndex + blogsPerPage;
     const visibleBlogs = blogs.slice(startIndex, endIndex);
 
     return visibleBlogs.map((blog, index) => (
-      <div key={index} className={styles.rectangleParent} onClick={() => handleBlogClick(blog.id)}>
+      <div
+        key={index}
+        className={styles.rectangleParent}
+        onClick={() => handleBlogClick(blog.id)}
+      >
         <img
           className={styles.groupChild}
           alt=""
           src={blog.image || defaultImage} // Use the blog's image or default placeholder image
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 4)}</div>
-        <div className={styles.desc}>{truncateWords(blog.brief, 8)}</div>
+        <div
+          className={styles.desc}
+          dangerouslySetInnerHTML={{
+            __html: truncateWords(blog.metaDescription, 8),
+          }}
+        ></div>
       </div>
     ));
   };

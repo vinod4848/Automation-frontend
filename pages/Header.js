@@ -46,9 +46,17 @@ const Header = () => {
           src="/logo-full-11@2x.png"
           onClick={() => router.push(`/`)}
         />
+        <div className={styles.searchContainer}>
+          <form >
+            <input type="text" placeholder="Search.." name="search" className={styles.SearchInput2} />
+            <button type="submit"><i className="">Search</i></button>
+          </form>
+        </div>
       </div>
+
+
       <div>
-        <HeaderAds />
+
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div className={styles.hrnavbar}>
             <div
@@ -106,20 +114,21 @@ const Header = () => {
               Subscribe Now
             </button>
           </div>
-          <div style={{width:"30px"}} onClick={toggleSidebar}>
-          {/* <div className={styles.hamburgerIcon}> */}
-          <div className={styles.hamburgerLine} />
-          <div className={styles.hamburgerLine} />
-          <div className={styles.hamburgerLine} />
-          {/* </div> */}
-        </div>
+          <div style={{ width: "30px" }} onClick={toggleSidebar}>
+            {/* <div className={styles.hamburgerIcon}> */}
+            <div className={styles.hamburgerLine} />
+            <div className={styles.hamburgerLine} />
+            <div className={styles.hamburgerLine} />
+            {/* </div> */}
+          </div>
         </div>
       </div>
+      <HeaderAds />
+
 
       <div
-        className={`${sidebarStyles.sidebar} ${
-          isSidebarOpen ? sidebarStyles.open : ""
-        }`}
+        className={`${sidebarStyles.sidebar} ${isSidebarOpen ? sidebarStyles.open : ""
+          }`}
       >
         <div className={sidebarStyles.navbarhead}>
           <img
@@ -176,6 +185,7 @@ const Header = () => {
           ))}
         </div>
       )}
+
     </div>
   );
 };

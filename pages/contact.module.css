@@ -1,12 +1,12 @@
 /* Define CSS variables for consistent use */
 
-
 /* Common styles for container elements */
 .contact-us-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  padding: 20px;
+  /* Add padding for spacing */
 }
 
 .contact-columns {
@@ -17,7 +17,10 @@
 
 /* Individual contact column styles */
 .contact-column {
-  width: 360px;
+  width: 100%;
+  /* Make columns full width on small screens */
+  max-width: 360px;
+  /* Limit column width on larger screens */
   margin: 20px;
   padding: 10px;
   background-color: #fff;
@@ -40,7 +43,8 @@
 .h1-column {
   font-family: var(--font-poppins);
   margin: 0;
-  margin-top: 80px;
+  margin-top: 20px;
+  /* Reduce margin on small screens */
 }
 
 .h4-column {
@@ -50,11 +54,15 @@
 }
 
 /* Form container */
-.form-container {
+.formContainer {
+
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
+  text-align: center;
+
+  /* Stack form elements on small screens */
 }
 
 /* Display field styles */
@@ -69,9 +77,12 @@
   margin: 0;
 }
 
-.address {
+.addressContainer {
   font-family: var(--font-poppins);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+
+  width: 40%;
+  /* Increase margin on small screens */
 }
 
 /* Input container */
@@ -85,7 +96,7 @@
 
 .input-container input {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -93,10 +104,14 @@
 }
 
 /* Contact form styles */
-.contact-form {
+.contactForm {
   flex: 1;
-  max-width: 400px;
-  background: #f7f7f7;
+  width: 100%;
+  max-width: 600px;
+
+  /* Limit form width on larger screens */
+  /* background: #f7f7f7; */
+  background-color: #b9adad;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -105,6 +120,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   text-align: left;
   margin-top: 20px;
+
 }
 
 .form-field label {
@@ -116,9 +132,10 @@
 .form-field input[type="email"],
 .form-field input[type="tel"],
 .form-field textarea {
-  width: 95%;
+  width: 100%;
   padding: 10px;
   font-size: 14px;
+  outline: none;
   border: 1px solid #ccc;
   border-radius: 4px;
   transition: border-color 0.3s;
@@ -154,20 +171,22 @@
 .submit-btn {
   background-color: rgb(185, 8, 8);
   border: solid 1px grey;
+  color: floralwhite;
   width: 100px;
   height: 40px;
-  border-radius: 20px;
+  outline: none;
+  border-radius: 8px;
   font-family: var(--font-poppins);
 }
 
-.submit-btn:hover {
+/* .submit-btn:hover {
   background-color: rgb(124, 8, 8);
   border: solid 1px grey;
   width: 100px;
   height: 40px;
   border-radius: 20px;
   font-family: var(--font-poppins);
-}
+} */
 
 /* Google Map container */
 .google-map-container {
@@ -176,11 +195,6 @@
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 1400px;
-  /* Adjust width as needed */
+  width: 100%;
+  /* Make the map container full width */
 }
-
-/* Additional styles for other modules (if any) */
-/* .module-class {
-  // Your styles here
-} */

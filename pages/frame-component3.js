@@ -55,6 +55,7 @@ const FrameComponent3 = () => {
     const visibleBlogs = blogs.slice(startIndex, endIndex);
 
     return visibleBlogs.map((blog, index) => (
+
       <div
         key={index}
         className={styles.rectangleParent}
@@ -66,6 +67,9 @@ const FrameComponent3 = () => {
           src={blog.image || defaultImage}
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 6)}</div>
+        {/* <div className={styles.blogTitle}>{truncateWords(blog.description, 6)}</div> */}
+
+
       </div>
     ));
   };

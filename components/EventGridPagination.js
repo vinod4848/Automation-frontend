@@ -88,7 +88,7 @@ const EventGridPagination = ({ blogs }) => {
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = trendingPosts.slice(indexOfFirstBlog, indexOfLastBlog);
-  console.log("currentBlogs::: ", currentBlogs);
+
 
   const formatDate = (dateString) => {
     const options = {
@@ -224,7 +224,7 @@ const EventGridPagination = ({ blogs }) => {
           </div>
         </div>
       </div>
-      <div className="col-span-3 grid grid-cols-3 gap-3 ">
+      <div className="col-span-3">
         {currentBlogs
           .filter((post) => {
             if (selectedMonth !== null) {

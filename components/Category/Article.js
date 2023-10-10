@@ -13,11 +13,7 @@ const Article = ({ blogs }) => {
   const router = useRouter();
   const [hoveredBlogId, setHoveredBlogId] = useState(null); // Track the hovered blog ID
   const apiUrl = process.env.api;
-  // const FileArray = [];
 
-  // console.log(FileArray, "array"); // Change this value based on the number of blogs you want to display per page
-
-  // Change page
   const paginate = (pageNumber) => {
     if (pageNumber !== currentPage) {
       setCurrentPage(pageNumber);
@@ -31,7 +27,6 @@ const Article = ({ blogs }) => {
           `${apiUrl}/api/post/article?page=${currentPage}&perPage=${blogsPerPage}`
         );
         const { data } = response;
-        console.log(data, "Trending Posts");
 
         if (Array.isArray(data.posts)) {
           setTrendingPosts(data.posts);
@@ -130,9 +125,8 @@ const Article = ({ blogs }) => {
         {trendingPosts.map((trending) => (
           <div
             key={trending._id}
-            className={`bg-white shadow-lg rounded-lg overflow-hidden max-w-full ${
-              hoveredBlogId === trending._id ? "shadow-xl" : ""
-            }`}
+            className={`bg-white shadow-lg rounded-lg overflow-hidden max-w-full ${hoveredBlogId === trending._id ? "shadow-xl" : ""
+              }`}
             onMouseEnter={() => handleBlogHover(trending._id)}
             onMouseLeave={handleBlogHoverLeave}
           >
@@ -153,9 +147,8 @@ const Article = ({ blogs }) => {
                       __html: `${trending.brief
                         .split(" ")
                         .slice(0, 6)
-                        .join(" ")}${
-                        trending.brief.split(" ").length > 6 ? " ..." : ""
-                      }`,
+                        .join(" ")}${trending.brief.split(" ").length > 6 ? " ..." : ""
+                        }`,
                     }}
                   />
                 )}
@@ -177,10 +170,10 @@ const Article = ({ blogs }) => {
         ))}
       </div>
       <div className="col-span-1 grid grid-cols-1 gap-1 ">
-          <div className="col-span-1 grid grid-cols-1 gap-1">
-              <HomeAds />        
-          </div>
+        <div className="col-span-1 grid grid-cols-1 gap-1">
+          <HomeAds />
         </div>
+      </div>
       <div className="col-span-5 flex justify-center mt-8">
         {totalPages > 1 && (
           <nav>
@@ -197,9 +190,8 @@ const Article = ({ blogs }) => {
               {pageNumbers.map((pageNumber) => (
                 <li key={pageNumber}>
                   <button
-                    className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-2 rounded ${
-                      currentPage === pageNumber ? "bg-red-700" : ""
-                    }`}
+                    className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-2 rounded ${currentPage === pageNumber ? "bg-red-700" : ""
+                      }`}
                     onClick={() => paginate(pageNumber)}
                   >
                     {pageNumber}
