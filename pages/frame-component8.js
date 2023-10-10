@@ -10,7 +10,8 @@ const FrameComponent8 = () => {
   const apiUrl = process.env.api;
   const carouselRef = useRef(null);
   const router = useRouter();
-  const defaultImage = "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png";
+  const defaultImage =
+    "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png";
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -39,7 +40,6 @@ const FrameComponent8 = () => {
     router.push(`/category/article?id=${blogId}`);
   };
 
-
   const handleNextClick = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
@@ -55,7 +55,11 @@ const FrameComponent8 = () => {
     const visibleBlogs = blogs.slice(startIndex, endIndex);
 
     return visibleBlogs.map((blog, index) => (
-      <div key={index} className={styles.rectangleParent} onClick={() => handleBlogClick(blog.id)}>
+      <div
+        key={index}
+        className={styles.rectangleParent}
+        onClick={() => handleBlogClick(blog.id)}
+      >
         <img
           className={styles.groupChild}
           alt=""

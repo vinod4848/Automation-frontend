@@ -79,7 +79,9 @@ const FrameComponent4 = () => {
           src={blog.image || defaultImage} // Use the blog's image or default placeholder image
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 6)}</div>
-        <div className={styles.desc}>{truncateWords(blog.metaDescription, 6)}</div>
+        <div className={styles.desc}>
+          {truncateWords(blog.metaDescription, 6)}
+        </div>
       </div>
     ));
   };

@@ -10,7 +10,8 @@ const FrameComponent8 = () => {
   const apiUrl = process.env.api;
   const carouselRef = useRef(null);
   const router = useRouter();
-  const defaultImage = "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png";
+  const defaultImage =
+    "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png";
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -39,7 +40,6 @@ const FrameComponent8 = () => {
     router.push(`/category/article?id=${blogId}`);
   };
 
-
   const handleNextClick = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
@@ -55,17 +55,20 @@ const FrameComponent8 = () => {
     const visibleBlogs = blogs.slice(startIndex, endIndex);
 
     return visibleBlogs.map((blog, index) => (
-      <div key={index} className={styles.rectangleParent} onClick={() => handleBlogClick(blog.id)}>
+      <div
+        key={index}
+        className={styles.rectangleParent}
+        onClick={() => handleBlogClick(blog.id)}
+      >
         <img
           className={styles.groupChild}
           alt=""
           src={blog.media[0].fileUrl || defaultImage} // Use the blog's image or default placeholder image
         />
         <div className={styles.blogTitle}>{truncateWords(blog.title, 4)}</div>
-        <div >{truncateWords(blog.state, 10)}</div>
-        <div >{truncateWords(blog.city, 10)}</div>
-        <div >{truncateWords(blog.country, 10)}</div>
-        {console.log()}
+        <div>{truncateWords(blog.state, 10)}</div>
+        <div>{truncateWords(blog.city, 10)}</div>
+        <div>{truncateWords(blog.country, 10)}</div>
       </div>
     ));
   };
@@ -82,7 +85,7 @@ const FrameComponent8 = () => {
   return (
     <div className={styles.featuredContentParent}>
       <div className={styles.featuredContent}>
-        <div style={{ display: "flex", alignItems: "center", width: "1200px", }}>
+        <div style={{ display: "flex", alignItems: "center", width: "1200px" }}>
           <h1 className={styles.featuredContent1}>Events</h1>
           <div className={styles.carouselContainer}>
             <button

@@ -46,9 +46,17 @@ const Header = () => {
           src="/logo-full-11@2x.png"
           onClick={() => router.push(`/`)}
         />
+        <div className={styles.searchContainer}>
+          <form >
+            <input type="text" placeholder="Search.." name="search" className={styles.SearchInput2} />
+            <button type="submit"><i className="">Search</i></button>
+          </form>
+        </div>
       </div>
+
+
       <div>
-        <HeaderAds />
+
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div className={styles.hrnavbar}>
             <div
@@ -115,6 +123,8 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <HeaderAds />
+
 
       <div
         className={`${sidebarStyles.sidebar} ${isSidebarOpen ? sidebarStyles.open : ""
@@ -175,6 +185,7 @@ const Header = () => {
           ))}
         </div>
       )}
+
     </div>
   );
 };

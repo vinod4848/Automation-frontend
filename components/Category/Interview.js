@@ -14,9 +14,6 @@ const Interview = ({ blogs }) => {
   const [hoveredBlogId, setHoveredBlogId] = useState(null); // Track the hovered blog ID
   const apiUrl = process.env.api;
   // const FileArray = [];
-
-  // console.log(FileArray, "array"); // Change this value based on the number of blogs you want to display per page
-
   // Change page
   const paginate = (pageNumber) => {
     if (pageNumber !== currentPage) {
@@ -31,7 +28,7 @@ const Interview = ({ blogs }) => {
           `${apiUrl}/api/post/interview?page=${currentPage}&perPage=${blogsPerPage}`
         );
         const { data } = response;
-        console.log(data, "Trending Posts");
+
 
         if (Array.isArray(data.posts)) {
           setTrendingPosts(data.posts);
@@ -158,7 +155,9 @@ const Interview = ({ blogs }) => {
                   />
                 )}
               </div>
-              <h4 className="text-gray-500 mb-2">{trending.selectedIndustry}</h4>
+              <h4 className="text-gray-500 mb-2">
+                {trending.selectedIndustry}
+              </h4>
               <p className="text-gray-500 mb-4">
                 {formatDate(trending.createdAt)}
               </p>

@@ -88,7 +88,7 @@ const EventGridPagination = ({ blogs }) => {
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = trendingPosts.slice(indexOfFirstBlog, indexOfLastBlog);
-  console.log("currentBlogs::: ", currentBlogs);
+
 
   const formatDate = (dateString) => {
     const options = {

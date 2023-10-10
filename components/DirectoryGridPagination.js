@@ -28,7 +28,6 @@ const DirectoryGridPagination = ({ blogs }) => {
     // Reset pagination to the first page
     setCurrentPage(1);
   };
-  // console.log(FileArray, "array"); // Change this value based on the number of blogs you want to display per page
 
   const monthNames = [
     "A",
@@ -72,7 +71,6 @@ const DirectoryGridPagination = ({ blogs }) => {
           `${apiUrl}/api/directory/alldirectories?page=${currentPage}&perPage=${blogsPerPage}`
         );
         const { data } = response;
-        console.log(data, "Trending Posts");
 
         if (Array.isArray(data.posts)) {
           setTrendingPosts(data.posts);
@@ -93,7 +91,6 @@ const DirectoryGridPagination = ({ blogs }) => {
   useEffect(() => {
     if (selectedMonth) {
       const filteredBlogs = blogs.filter((blog) => {
-        console.log(filteredBlogs, "blgofdaara");
         const blogDate = new Date(blog.startDate);
 
         return blogDate.getMonth() === selectedMonth - 1; // JavaScript months are zero-based (0 for January, 11 for December)
@@ -275,9 +272,9 @@ const DirectoryGridPagination = ({ blogs }) => {
                     Previous
                   </button>
                 </li>
-                {pageNumbers.map((pageNumber,index) => (
+                {pageNumbers.map((pageNumber, index) => (
                   <div key={index}>
-                 
+
                     <button
                       className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-2 rounded ${currentPage === pageNumber ? "bg-red-700" : ""
                         }`}

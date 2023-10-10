@@ -14,7 +14,6 @@ const BlogGridPagination = ({ blogs }) => {
   const apiUrl = process.env.api;
   // const FileArray = [];
 
-  // console.log(FileArray, "array"); // Change this value based on the number of blogs you want to display per page
 
   // Change page
   const paginate = (pageNumber) => {

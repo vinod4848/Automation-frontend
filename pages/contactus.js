@@ -3,7 +3,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Banner from "../components/Banner";
 import styles from "./contact.module.css"; // Import your CSS module
-
 const contactus = () => {
   return (
     <div>
@@ -77,8 +76,8 @@ const contactus = () => {
           You can visit our office and we can discuss your query or drop us a
           message.
         </h4>
-        <div className={styles["form-container"]}>
-          <div className={styles["address-container"]}>
+        <div className={styles["formContainer"]}>
+          <div className={styles["addressContainer"]}>
             <h2 className={styles["h2-column"]}>Our Address</h2>
             <div className={styles["address"]}>
               <h5 className={styles["h5-column"]}>Regd Office:</h5>
@@ -101,9 +100,9 @@ const contactus = () => {
             </div>
           </div>
           {/* Contact Us Form */}
-          <div className={styles["contact-form"]}>
+          <div className={styles["contactForm"]}>
             <h2 className={styles["h2-column"]}>Contact Us</h2>
-            <form style={{ width: "300px" }}>
+            <form style={{ width: "400px" }}>
               <div className={styles["form-field"]}>
                 <input type="text" placeholder="Name" />
               </div>

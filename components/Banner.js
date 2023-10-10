@@ -7,14 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 const Banner = () => {
   const [ads, setAds] = useState([]);
   const apiUrl = process.env.api;
-  console.log(apiUrl, "api data");
+ 
 
   useEffect(() => {
     const api = `${apiUrl}/api/banner/allbanners`;
 
     axios.get(api).then((response) => {
       const banners = response.data;
-      console.log("banners::: ", banners);
       setAds(banners);
     });
   }, []);
