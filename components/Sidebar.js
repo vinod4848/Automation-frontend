@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import "../components/sidebar.module.css"; // You can create this CSS file to style the sidebar
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -28,18 +28,18 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <div className="sidebar-handle" onClick={toggleSidebar}>
           <i className={`fas fa-chevron-${isOpen ? "left" : "right"}`}></i>
           {isMenuOpen && (
-          <div className={styles.menuItems}>
-            {menuItems.map((item, index) => (
-              <div
-                key={index}
-                className={styles.menuItem}
-                onClick={() => handleMenuItemClick(item.path)}
-              >
-                {item.label}
-              </div>
-            ))}
-          </div>
-        )}
+            <div className={styles.menuItems}>
+              {menuItems.map((item, index) => (
+                <div
+                  key={index}
+                  className={styles.menuItem}
+                  onClick={() => handleMenuItemClick(item.path)}
+                >
+                  {item.label}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

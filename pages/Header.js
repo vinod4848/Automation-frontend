@@ -56,8 +56,14 @@ const Header = () => {
 
 
       <div>
-
         <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ width: "58px", backgroundColor: "#a1181b" }} onClick={toggleSidebar}>
+            <div className={styles.hamburgerIcon}>
+              <div className={styles.hamburgerLine} />
+              <div className={styles.hamburgerLine} />
+              <div className={styles.hamburgerLine} />
+            </div>
+          </div>
           <div className={styles.hrnavbar}>
             <div
               className={styles.navbar}
@@ -114,13 +120,7 @@ const Header = () => {
               Subscribe Now
             </button>
           </div>
-          <div style={{ width: "30px" }} onClick={toggleSidebar}>
-            {/* <div className={styles.hamburgerIcon}> */}
-            <div className={styles.hamburgerLine} />
-            <div className={styles.hamburgerLine} />
-            <div className={styles.hamburgerLine} />
-            {/* </div> */}
-          </div>
+
         </div>
       </div>
       <HeaderAds />

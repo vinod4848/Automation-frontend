@@ -23,11 +23,11 @@
 }
 
 .searchContainer {
-  width: 70%;
+  width: 60%;
 }
 
 .SearchInput {
-  width: 20%;
+  width: 40%;
   padding: 10px;
   margin-top: 8px;
   font-size: 17px;
@@ -89,15 +89,15 @@
 .hamburgerIcon {
   width: 100%;
   height: 5px;
-  background-color: #ff0808;
-  margin: 4px;
+
+  margin-top: 10px;
   z-index: 999;
 }
 
 .hamburgerLine {
   width: 100%;
   height: 5px;
-  background-color: #ff0808;
+  background-color: #dad5d5;
   margin: 4px;
   z-index: 999;
 }
