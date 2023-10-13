@@ -86,7 +86,7 @@ const FrameComponent3 = () => {
   return (
     <div className={styles.featuredContentParent}>
       <div className={styles.featuredContent}>
-        <h1 className={styles.featuredContent1}>Featured Content</h1>
+        <h1 className={styles.featuredContent1}>News</h1>
         <div className={styles.carouselContainer}>
           <button
             className={`${styles.carouselButton1} prev`}

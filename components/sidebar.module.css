@@ -3,21 +3,25 @@
 .sidebar {
   position: fixed;
   top: 0;
-  left: -300px; /* Initially hidden off the screen */
+  right: -300px;
+  /* Initially hidden off the screen */
   width: 250px;
   height: 100%;
   background-color: #fff;
   transition: right 0.3s ease-in-out;
   z-index: 1000;
 }
+
 .navbarhead {
   display: flex;
   justify-content: center;
   margin-left: -20px;
   max-height: 20px;
 }
+
 .sidebar.open {
-  left: 0; /* Show the sidebar */
+  right: 0;
+  /* Show the sidebar */
 }
 
 .navbar {
@@ -28,6 +32,7 @@
 .navbarItem {
   padding: 15px;
 }
+
 .navLink {
   font-size: medium;
   color: red;
