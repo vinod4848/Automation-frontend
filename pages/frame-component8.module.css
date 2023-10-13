@@ -18,6 +18,7 @@
   height: 500px;
   flex-direction: column;
   align-items: center;
+
 }
 
 /* Featured Content Title */
@@ -25,6 +26,7 @@
   font-size: 36px;
   font-family: 'poppins';
   margin-bottom: 20px;
+
 }
 
 /* Blog Item Container */
@@ -41,7 +43,7 @@
 } */
 
 .rectangleParent {
-  width: 300px;
+  width: 260px;
   /* Set a fixed width */
   height: 300px;
   display: flex;
@@ -58,6 +60,7 @@
   overflow: hidden;
   transition: 0.7s;
   background-color: rgb(255, 255, 255);
+
   color: black;
 }
 
